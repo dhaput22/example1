@@ -10,6 +10,7 @@ export default {
       fontFamily:{
         marko:['Marko One, serif;'],
         inria:['Inria Serif'],
+        inter:['inter']
       },
       backgroundImage:{
         'bground': "url('/public/img/bground.jpg')",
@@ -27,5 +28,5 @@ export default {
       },
     },
   },
-  plugins: [],
+  plugins: [require("tw-elements/plugin.cjs")],
 }
