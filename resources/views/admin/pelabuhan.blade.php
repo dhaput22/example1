@@ -17,10 +17,9 @@
    @vite('resources/css/app.css')
    @vite('resources/js/app.js')
    <title>Dashboard Admin</title>
-
 </head>
 
-
+<body>
 <!-- NAV BAR -->
 <nav class="bg-gradient-to-br from-sky-800 to-slate-100 shadow-xl">
    <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
@@ -179,6 +178,10 @@
                      </tbody>
                </div>
             </div>
+         </div>
+      </div>
+   </div>
+</div>
 
             </body>
 

@@ -43,32 +43,36 @@ use App\Http\Controllers\DashboardController;
 
 Route::get('/landing', [LandingController::class, 'index']);
 
-Route::get('/dashboard', function () {
+Route::get('/admin/dashboard', function () {
     return view('/admin/dashboard');
 });
 
-Route::get('/kapal', function () {
+Route::get('/admin/kapal', function () {
     return view('/admin/kapal');
 });
 
-Route::get('/pelabuhan', function () {
+Route::get('/admin/pelabuhan', function () {
     return view('/admin/pelabuhan');
 });
 
-Route::get('/rute', function () {
+Route::get('/admin/rute', function () {
     return view('/admin/rute');
 });
 
-Route::get('/tiket', function () {
+Route::get('/admin/tiket', function () {
     return view('/admin/tiket');
 });
 
-Route::get('/pengguna', function () {
+Route::get('/admin/pengguna', function () {
     return view('/admin/pengguna');
 });
 
-Route::get('/pesanan', function () {
+Route::get('/admin/pesanan', function () {
     return view('/admin/pesanan');
+});
+
+Route::get('/admin/formulir/tambahkapal', function () {
+    return view('/admin/formulir/tambahkapal');
 });
 
 Route::get('/list_barang', [ListBarangController::class, 'tampilkan']);
