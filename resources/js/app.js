@@ -1,4 +1,5 @@
 import './bootstrap';
+import './my-custom';
 // Initialization for ES Users
 import {
   Dropdown,
@@ -7,3 +8,4 @@ import {
 } from "tw-elements";
 
 initTWE({ Dropdown, Ripple });
+
