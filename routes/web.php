@@ -71,8 +71,24 @@ Route::get('/admin/pesanan', function () {
     return view('/admin/pesanan');
 });
 
-Route::get('/admin/formulir/tambahkapal', function () {
+Route::get('/admin/tambahkapal', function () {
     return view('/admin/formulir/tambahkapal');
+});
+
+Route::get('/admin/tambahrute', function () {
+    return view('/admin/formulir/tambahrute');
+});
+
+Route::get('/admin/tambahtiket', function () {
+    return view('/admin/formulir/tambahtiket');
+});
+
+Route::get('/admin/tambahpelabuhan', function () {
+    return view('/admin/formulir/tambahpelabuhan');
+});
+
+Route::get('/admin/tambahpengguna', function () {
+    return view('/admin/formulir/tambahpengguna');
 });
 
 Route::get('/list_barang', [ListBarangController::class, 'tampilkan']);
