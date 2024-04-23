@@ -175,7 +175,7 @@
                         <span class="font-inter font-semibold mx-3 text-xl">Total Pemasukan</span>
                     </div>
                     <div class="flex flex-col justify-between flex-grow">
-                        <p class="leading-relaxed text-whitetext-8xl">
+                        <p class="leading-relaxed text-white text-8xl">
                             <!-- data dari data base nantinya --> 0
                         </p>
                         <a href="#" class="font-inter text-black hover:text-white inline-flex items-center">Selengkapnya
